@@ -37,11 +37,11 @@ module.exports = [
           exclude: /\.(spec|test)\.tsx?$/,
           use: ["ts-loader"]
         },
-        {
-          test: /\.js?$/,
-          exclude: /\.(spec|test)\.jsx?$/,
-          use: ["babel-loader"]
-        },
+        // {
+        //   test: /\.js?$/,
+        //   exclude: /\.(spec|test)\.jsx?$/,
+        //   use: ["babel-loader"]
+        // },
         {
           test: /\.css$/,
           use: ["style-loader", "css-loader", "postcss-loader"]

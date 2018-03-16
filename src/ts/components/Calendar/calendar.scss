@@ -1,0 +1,37 @@
+.wpw-calendar {
+    text-align: center;
+    
+    &__header {
+        display: flex;
+    }
+
+    &__arrow {
+        flex: 0 0  auto;
+    }
+
+    &__title {
+        flex: 1 1 auto;
+    }
+
+    &__theader {
+        display: flex;
+    }
+
+    &__th {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    &__tbody {
+
+    }
+
+    &__row {
+        display: flex;
+    }
+
+    &__td {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+}

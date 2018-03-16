@@ -1,3 +1,3 @@
-import Calendar from './components/calendar/Calendar';
+import Calendar from './components/Calendar/Calendar';
 
-new Calendar();
+Calendar({ 'calendar-id': 'test' });
